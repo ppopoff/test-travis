@@ -4,8 +4,8 @@ before_install: umask 0022
 scala:
   - 2.11.7
   - 2.10.5
-services:
-  - cassandra # you can easily replace it with.. riak
+#services:
+#  - cassandra # you can easily replace it with.. riak
 jdk:
   - oraclejdk8
   - openjdk7
