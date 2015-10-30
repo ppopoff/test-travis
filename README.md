@@ -12,4 +12,5 @@ Issues I've faced
 
  - Travis has no knowledge about openjdk8
  - .travis.yml must be commited before we connect our repo with travis
+ - cross-compilation doesn't work that easy. Looks like you have to add matrix or smth like it
 
