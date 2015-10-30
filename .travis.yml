@@ -1,0 +1,15 @@
+language: scala
+sudo: false
+before_install: umask 0022
+scala:
+  - 2.11.7
+jdk:
+  - oraclejdk8
+  - openjdk8
+branches:
+  only:
+    - master
+notifications:
+  email:
+    - oc14@ya.ru
+script: sbt ++$TRAVIS_SCALA_VERSION test
